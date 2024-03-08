@@ -8,7 +8,7 @@ function calculatePrice(event) {
     } else if (age >= 5 && age < 18) {
         price = 120; // Price for children
     } else if (age >= 18 && age < 60) {
-        price = 120; // Price for adults
+        price = 150; // Price for adults
     } else {
         price = 0;
     }
